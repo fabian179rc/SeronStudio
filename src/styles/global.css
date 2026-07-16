@@ -492,3 +492,54 @@ body:has(.cursor-dot) button {
     font-size: 1.25rem;
   }
 }
+
+/* Filosofia */
+.filosofia {
+  padding: 6rem 0;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.filosofia__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.filosofia__texto p {
+  color: var(--text-primary);
+  opacity: 0.8;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
+
+.filosofia__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filosofia__lista li {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  opacity: 0.85;
+}
+
+.filosofia__punto {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .filosofia__grid {
+    grid-template-columns: 1fr;
+  }
+}
