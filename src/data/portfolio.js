@@ -1,4 +1,5 @@
 import emergenciasImg from "../assets/portfolio/emergencias-hys.png";
+import heladosPandaImg from "../assets/portfolio/helados-panda.png";
 
 export const portfolio = [
   {
@@ -9,15 +10,18 @@ export const portfolio = [
       "Landing de venta para un sistema de gestión de emergencias: storytelling de riesgo, prueba social y checkout con urgencia real.",
     gradient: "linear-gradient(135deg, #3a2317 0%, #1a1008 100%)",
     image: emergenciasImg,
+    aspectRatio: "6 / 5",
     url: "https://maestrodeemergencias.tupuntodigital.shop/",
   },
   {
     numero: "02",
-    industria: "Legal",
-    nombre: "El Consejo de Confianza",
+    industria: "Alimentos",
+    nombre: "Helados Panda",
     descripcion:
-      "Un sitio institucional sobrio que posiciona al estudio como referente de confianza antes del primer contacto.",
+      "Sitio de marca para un fabricante de helados y alfajores con 24 años en el mercado: catálogo de productos y pedidos directos por WhatsApp.",
     gradient: "linear-gradient(135deg, #1f2937 0%, #0b0f14 100%)",
+    image: heladosPandaImg,
+    aspectRatio: "7 / 5",
     url: "#",
   },
   {

@@ -14,7 +14,10 @@ export default function PortfolioCard({ caso }) {
     >
       <div
         className="portfolio-card__media"
-        style={{ background: caso.gradient }}
+        style={{
+          background: caso.gradient,
+          aspectRatio: caso.aspectRatio || "16 / 9",
+        }}
       >
         {caso.image && (
           <img

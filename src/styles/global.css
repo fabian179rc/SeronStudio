@@ -353,7 +353,6 @@ body:has(.cursor-dot) button {
 
 .portfolio-card__media {
   position: relative;
-  aspect-ratio: 6 / 5;
   overflow: hidden;
 }
 
