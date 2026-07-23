@@ -1,50 +1,5 @@
 export const portfolio = [
   {
-    numero: "01",
-    industria: "Higiene y Seguridad",
-    nombre: "Sistema Maestro de Emergencias HyS",
-    descripcion:
-      "Landing de venta para un sistema de gestión de emergencias: storytelling de riesgo, prueba social y checkout con urgencia real.",
-    gradient: "linear-gradient(135deg, #3a2317 0%, #1a1008 100%)",
-    aspectRatio: "4 / 3",
-    image: "/casos/emergencias-hys/thumbnail.png",
-    imagePosition: "top",
-    preview: "/casos/emergencias-hys/index.html?v=3",
-  },
-  {
-    numero: "02",
-    industria: "Alimentos",
-    nombre: "Helados Panda",
-    descripcion:
-      "Sitio de marca para un fabricante de helados y alfajores con 24 años en el mercado: catálogo de productos y pedidos directos por WhatsApp.",
-    gradient: "linear-gradient(135deg, #1f2937 0%, #0b0f14 100%)",
-    aspectRatio: "4 / 3",
-    image: "/casos/helados-panda/thumbnail.png",
-    preview: "/casos/helados-panda/index.html",
-  },
-  {
-    numero: "03",
-    industria: "Higiene y Seguridad",
-    nombre: "Ecosistema de Sistemas HyS",
-    descripcion:
-      "Catálogo hub que centraliza los sistemas HyS en una sola landing, con jerarquía clara entre productos disponibles y próximos lanzamientos.",
-    gradient: "linear-gradient(135deg, #234035 0%, #0e1a15 100%)",
-    aspectRatio: "4 / 3",
-    image: "/casos/ecosistema-hys/thumbnail.png",
-    preview: "/casos/ecosistema-hys/index.html",
-  },
-  {
-    numero: "04",
-    industria: "Belleza",
-    nombre: "Sistema 360 Lash",
-    descripcion:
-      "Landing de venta para un sistema de gestión integral de lashistas: seis tomos, bonos operativos y checkout con planes escalonados.",
-    gradient: "linear-gradient(135deg, #3d2f1a 0%, #1a130a 100%)",
-    aspectRatio: "4 / 3",
-    image: "/casos/sistema-360-lash/thumbnail.png",
-    preview: "/casos/sistema-360-lash/index.html?v=2",
-  },
-  {
     numero: "05",
     industria: "Salud Dental",
     nombre: "Sonrisa Dental Studio",
@@ -108,5 +63,50 @@ export const portfolio = [
     aspectRatio: "4 / 3",
     image: "/casos/psicologos/thumbnail.png",
     preview: "/casos/psicologos/index.html?v=2",
+  },
+  {
+    numero: "01",
+    industria: "Higiene y Seguridad",
+    nombre: "Sistema Maestro de Emergencias HyS",
+    descripcion:
+      "Landing de venta para un sistema de gestión de emergencias: storytelling de riesgo, prueba social y checkout con urgencia real.",
+    gradient: "linear-gradient(135deg, #3a2317 0%, #1a1008 100%)",
+    aspectRatio: "4 / 3",
+    image: "/casos/emergencias-hys/thumbnail.png",
+    imagePosition: "top",
+    preview: "/casos/emergencias-hys/index.html?v=3",
+  },
+  {
+    numero: "02",
+    industria: "Alimentos",
+    nombre: "Helados Panda",
+    descripcion:
+      "Sitio de marca para un fabricante de helados y alfajores con 24 años en el mercado: catálogo de productos y pedidos directos por WhatsApp.",
+    gradient: "linear-gradient(135deg, #1f2937 0%, #0b0f14 100%)",
+    aspectRatio: "4 / 3",
+    image: "/casos/helados-panda/thumbnail.png",
+    preview: "/casos/helados-panda/index.html",
+  },
+  {
+    numero: "03",
+    industria: "Higiene y Seguridad",
+    nombre: "Ecosistema de Sistemas HyS",
+    descripcion:
+      "Catálogo hub que centraliza los sistemas HyS en una sola landing, con jerarquía clara entre productos disponibles y próximos lanzamientos.",
+    gradient: "linear-gradient(135deg, #234035 0%, #0e1a15 100%)",
+    aspectRatio: "4 / 3",
+    image: "/casos/ecosistema-hys/thumbnail.png",
+    preview: "/casos/ecosistema-hys/index.html",
+  },
+  {
+    numero: "04",
+    industria: "Belleza",
+    nombre: "Sistema 360 Lash",
+    descripcion:
+      "Landing de venta para un sistema de gestión integral de lashistas: seis tomos, bonos operativos y checkout con planes escalonados.",
+    gradient: "linear-gradient(135deg, #3d2f1a 0%, #1a130a 100%)",
+    aspectRatio: "4 / 3",
+    image: "/casos/sistema-360-lash/thumbnail.png",
+    preview: "/casos/sistema-360-lash/index.html?v=2",
   },
 ];
