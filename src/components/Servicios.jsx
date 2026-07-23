@@ -7,7 +7,7 @@ export default function Servicios() {
   return (
     <section id="servicios" className="servicios" ref={ref}>
       <div className={`container ${revealClass(isVisible)}`}>
-        <h2 className="section-title">Lo que construimos para tu negocio</h2>
+        <h2 className="section-title">Lo que construimos</h2>
         <ul className="servicios__lista">
           {servicios.map((servicio) => (
             <li key={servicio.numero} className="servicios__item">
