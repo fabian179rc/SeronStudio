@@ -38,7 +38,7 @@ Reescribir el contenido y ampliar la estructura de secciones del sitio existente
 9. **Filosofía** — se reescribe el texto principal ("La estrategia va primero") y se agrega el bloque "Para quién es / no es" (2 columnas) dentro de la misma sección, reemplazando la lista actual de diferenciales. Cumple el rol de "Para quién es SeronStudio" del mockup.
 10. **Portfolio** *(reubicado)* — el mockup de Opción A lo ubica como "Ejemplos reales" cerca del final, no pegado a Métricas. Sin cambios de datos/estructura del componente, solo de posición: va después de Filosofía, antes de FAQ.
 11. **FAQ** *(sección nueva)* — acordeón (`<details>`) con las 7 objeciones de la carta.
-12. **Sin riesgo** *(sección nueva, bloque `bg-secondary`)* — "Primero hablamos. Después decidís." + párrafo de reassurance.
+12. **Inversión** *(sección nueva, bloque `bg-secondary`, componente `Inversion.jsx`)* — "Invertí en tu web. Hacé crecer tu negocio." + el párrafo "La pregunta real..." de la carta (costo de oportunidad de no tener una web que funcione). Reemplaza la idea original de "Sin riesgo" (reassurance de "sin compromiso") por un enfoque de inversión/crecimiento, a pedido del usuario tras ver la primera versión.
 13. **Contacto** — se actualiza el copy del CTA ("¿Le damos forma a tu presencia online?"), se agrega el mensaje de WhatsApp pre-cargado ("Hola, vi SeronStudio y me gustaría consultar por una web para mi negocio.") al link de WhatsApp vía query param `?text=`.
 14. **Footer** — tagline nuevo: "La página que trabaja antes que vos."
 

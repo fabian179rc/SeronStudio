@@ -937,20 +937,20 @@ body:has(.cursor-dot) button {
   line-height: 1.6;
 }
 
-/* Sin riesgo */
-.riesgo {
+/* Inversion */
+.inversion {
   padding: 6rem 0;
   border-top: 1px solid var(--border-subtle);
   background: var(--bg-secondary);
   text-align: center;
 }
 
-.riesgo__inner {
+.inversion__inner {
   max-width: 50ch;
   margin: 0 auto;
 }
 
-.riesgo__inner p {
+.inversion__inner p {
   color: var(--text-primary);
   opacity: 0.75;
   margin-top: 1rem;

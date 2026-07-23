@@ -10,7 +10,7 @@ import Proceso from "./components/Proceso";
 import Filosofia from "./components/Filosofia";
 import Portfolio from "./components/Portfolio";
 import Faq from "./components/Faq";
-import SinRiesgo from "./components/SinRiesgo";
+import Inversion from "./components/Inversion";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
 
@@ -29,7 +29,7 @@ export default function App() {
       <Filosofia />
       <Portfolio />
       <Faq />
-      <SinRiesgo />
+      <Inversion />
       <Contacto />
       <Footer />
     </>
