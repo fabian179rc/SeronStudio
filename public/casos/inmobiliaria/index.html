@@ -124,9 +124,28 @@
       }
 
       .hero {
-        padding: 72px 0 56px;
-        background: radial-gradient(circle at 80% 15%, rgba(196, 105, 58, 0.14), transparent 55%);
-        text-align: center;
+        padding: 64px 0 0;
+        background: radial-gradient(circle at 85% 10%, rgba(196, 105, 58, 0.16), transparent 55%);
+      }
+
+      .hero .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 64px;
+      }
+
+      @media (max-width: 860px) {
+        .hero .container {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+
+        .hero-visual {
+          order: -1;
+          margin: 0 auto 12px;
+        }
       }
 
       .badge {
@@ -144,33 +163,85 @@
       }
 
       .hero h1 {
-        font-size: clamp(2rem, 5vw, 3rem);
+        font-size: clamp(2.1rem, 4.2vw, 2.9rem);
         font-weight: 800;
-        max-width: 760px;
-        margin: 0 auto 20px;
+        margin: 0 0 20px;
         line-height: 1.2;
       }
 
       .hero p.subtitle {
         color: var(--text-dim);
         font-size: 1.1rem;
-        max-width: 600px;
-        margin: 0 auto 32px;
+        max-width: 480px;
+        margin: 0 0 32px;
+      }
+
+      @media (max-width: 860px) {
+        .hero p.subtitle {
+          margin: 0 auto 32px;
+        }
       }
 
       .hero-actions {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 14px;
         margin-bottom: 40px;
+      }
+
+      @media (max-width: 860px) {
+        .hero-actions {
+          justify-content: center;
+        }
       }
 
       .trust-badges {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 14px;
+      }
+
+      @media (max-width: 860px) {
+        .trust-badges {
+          justify-content: center;
+        }
+      }
+
+      .hero-visual {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero-property {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 340px;
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+        transform: rotate(2deg);
+      }
+
+      .hero-property-media {
+        height: 190px;
+        background: linear-gradient(135deg, #c4693a 0%, #4a220f 100%);
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 16px;
+      }
+
+      .hero-property-body {
+        padding: 20px 22px 24px;
+      }
+
+      .hero-property-body h4 {
+        font-size: 1.1rem;
+        margin-bottom: 6px;
       }
 
       .trust-badge {
@@ -414,20 +485,33 @@
 
     <section class="hero">
       <div class="container">
-        <span class="badge">Tasación 100% gratuita</span>
-        <h1>Encontrá el lugar donde va a empezar tu próxima etapa</h1>
-        <p class="subtitle">
-          Venta, alquiler e inversión inmobiliaria con acompañamiento en
-          cada paso.
-        </p>
-        <div class="hero-actions">
-          <a class="btn-call" href="https://wa.me/5493415550300">💬 Hablar por WhatsApp</a>
-          <a class="btn-outline" href="#tasacion">Tasá tu propiedad</a>
+        <div class="hero-copy">
+          <span class="badge">Tasación 100% gratuita</span>
+          <h1>Encontrá el lugar donde va a empezar tu próxima etapa</h1>
+          <p class="subtitle">
+            Venta, alquiler e inversión inmobiliaria con acompañamiento en
+            cada paso.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-call" href="https://wa.me/5493415550300">💬 Hablar por WhatsApp</a>
+            <a class="btn-outline" href="#tasacion">Tasá tu propiedad</a>
+          </div>
+          <div class="trust-badges">
+            <span class="trust-badge">🏘️ +300 propiedades operadas</span>
+            <span class="trust-badge">📋 Matrícula CUCICBA</span>
+          </div>
         </div>
-        <div class="trust-badges">
-          <span class="trust-badge">🏘️ +300 propiedades operadas</span>
-          <span class="trust-badge">📋 Matrícula CUCICBA</span>
-          <span class="trust-badge">⏱️ Tasación sin cargo en 48hs</span>
+        <div class="hero-visual">
+          <div class="hero-property">
+            <div class="hero-property-media">
+              <span class="propiedad-tag">Destacada</span>
+            </div>
+            <div class="hero-property-body">
+              <h4>Casa 3 dormitorios — Zona Norte</h4>
+              <div class="propiedad-price">USD 145.000</div>
+              <div class="propiedad-meta"><span>3 dorm</span><span>180m²</span></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
