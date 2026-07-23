@@ -354,7 +354,7 @@ body:has(.cursor-dot) button {
 
 .portfolio__kicker {
   font-family: var(--font-serif);
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   color: var(--accent);
   margin: 0 0 0.5rem;
 }
